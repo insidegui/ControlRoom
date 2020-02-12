@@ -13,6 +13,14 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
     var window: NSWindow!
 
+    private let preferences = Preferences()
+
+    func applicationWillFinishLaunching(_ notification: Notification) {
+        if preferences.isStatusBarModeEnabled {
+            NSApp.setActivationPolicy(.accessory)
+        }
+    }
+
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create the SwiftUI view that provides the window contents.
         let contentView = MainView()

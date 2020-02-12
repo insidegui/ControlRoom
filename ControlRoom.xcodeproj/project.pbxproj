@@ -25,6 +25,7 @@
 		511BA5A823F42EE400E3E660 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BA5A723F42EE400E3E660 /* AppView.swift */; };
 		511BA5AA23F4316700E3E660 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BA5A923F4316700E3E660 /* TextView.swift */; };
 		51760B2D23F46073004532A9 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51760B2C23F46073004532A9 /* Defaults.swift */; };
+		DD83401023F4A468009D8FEA /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83400F23F4A468009D8FEA /* Preferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		511BA5A723F42EE400E3E660 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		511BA5A923F4316700E3E660 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		51760B2C23F46073004532A9 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		DD83400F23F4A468009D8FEA /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				511BA5A123F41A5900E3E660 /* Binding-OnChange.swift */,
 				511BA5A523F420AB00E3E660 /* FormSpacer.swift */,
 				51760B2C23F46073004532A9 /* Defaults.swift */,
+				DD83400F23F4A468009D8FEA /* Preferences.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				511BA5A623F420AB00E3E660 /* FormSpacer.swift in Sources */,
 				51760B2D23F46073004532A9 /* Defaults.swift in Sources */,
 				511BA59023F4030D00E3E660 /* LoadingView.swift in Sources */,
+				DD83401023F4A468009D8FEA /* Preferences.swift in Sources */,
 				511BA59623F408F800E3E660 /* LoadingFailedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ControlRoom/Preview Content\"";
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ControlRoom/Info.plist;
@@ -402,7 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ControlRoom/Preview Content\"";
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ControlRoom/Info.plist;
